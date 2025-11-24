@@ -1,3 +1,5 @@
-micro_ultraosund_segmentation
+MICR0U_ULTRASOUND_IMAGE SEGMENTATION
+
+
 This repository implements a lightweight GAN model, based on a modified pix2pix architecture, for segmenting micro-ultrasound images (and contrast-enhanced MRI) in cancer detection tasks. Medical imaging — with its high-resolution anatomical insight — plays a crucial role in early cancer diagnosis. However, conventional deep learning segmentation models demand significant computational resources. To enhance efficiency, we adopt a generator–discriminator framework optimized via group and spectral normalization, which improves gradient propagation while reducing model complexity and overhead. The approach was evaluated on two modalities: micro-ultrasound for prostate and MRI for hepatocellular carcinoma (HCC). Results show improved Dice coefficient and pixel‐accuracy versus conventional models, and ~17.8 % faster training. This shows lightweight GANs can be viable for high-precision segmentation in resource‐constrained environments. For full details, see our published paper at Springer Nature:
 https://link.springer.com/article/10.1007/s11760-025-04838-6
